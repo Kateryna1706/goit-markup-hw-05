@@ -146,6 +146,10 @@ a {
   background-color: var(--secondary-accent-color);
 }
 
+.site-nav-item .link.current {
+  color: var(--accent-color);
+}
+
 /*contacts*/
 .contacts-list {
   line-height: 1.5;
@@ -154,9 +158,6 @@ a {
   margin-left: auto;
 }
 
-.contacts-list .link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .contacts-item:not(:last-child) {
   margin-right: 40px;
@@ -164,8 +165,12 @@ a {
 
 /*index.html*/
 .hero {
-  padding-top: 192px;
   height: 600px;
+  width: 1440px;
+  padding-top: 192px;
+  margin-right: auto;
+  margin-left: auto;
+
   text-align: center;
   background-color: var(--secondary-color);
   background-image: linear-gradient(
@@ -659,8 +664,8 @@ transform: translate(-50%,-50%) scale(0.9);
   border: 0;
   border-radius: 50%;
   position: absolute;
-  right: 25px;
-  top: 32px;
+  right: 24px;
+  top: 24px;
   display: block;
 }
 
